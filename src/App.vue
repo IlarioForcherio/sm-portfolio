@@ -1,8 +1,9 @@
 <template>
     <div id="app">
-        <div>
+        <div class="vh-100">
             <!-- <HeaderComp/> -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <!-- navbar -->
+            <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <router-link aria-current="page" class="navbar-brand" to="/">Home</router-link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
             <router-view/>
         </div>
     </div>
@@ -45,6 +46,10 @@ export default {
     // -moz-osx-font-smoothing: grayscale;
     // text-align: center;
     // color: #2c3e50;
+}
+
+.vh-100{
+  height:100vh;
 }
 
 // nav {
