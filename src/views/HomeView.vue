@@ -3,11 +3,11 @@
         <div class="container-fluid w-95">
             <!-- silvia-montinaro -->
             <div class="row pt-3 align-items-center">
-                <div class="col-2 text-end">
+                <div class="col-md-12 col-lg-2 text-end">
                  <div> SILVIA MONTINARO</div>
                 </div>
                 <!-- line -->
-                <div class="col-10">
+                <div class="col-md-12 col-lg-10">
                     <div class="line"></div>
                 </div>
     
@@ -16,11 +16,11 @@
             <div class="row">
                 <!-- about -->
                 <div class="col-1"></div>
-                <div class="col-3  d-flex align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-3  d-flex align-items-center">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio explicabo quia possimus rerum sit omnis, maxime porro dolor dolore, voluptates expedita architecto commodi quibusdam magnam. Corrupti, iusto. Deserunt, repellendus.</p>
                 </div>
                 <!-- big-txt -->
-                <div class="col-8">
+                <div class="col-sm-12 col-md-12 col-lg-3">
                     <a href="/work">
                         <h2 class="txt">Work</h2>
                     </a>
@@ -34,11 +34,11 @@
             </div>
             <!-- copywriter -->
             <div class="row align-items-center">
-                <div class="col-2 ">
+                <div class="col-md-12 col-lg-2 ">
                 <div class="">-- COPYWRITER --</div>  
                 </div>
             <!-- line -->
-            <div class="col-10">
+            <div class="col-md-12 col-lg-10">
                 <div class="line"></div>
             </div>
 
@@ -85,4 +85,28 @@ a {
     //transform: scaleX(1.1);
     font-size: 8rem;
 }
+
+
+//-----------------------MEDIA-QUERY-------------------------------//
+
+@media screen and (min-width:1280px ){
+
+  .txt {
+    //--webkit-transform: scaleX(1.1);
+    //transform: scaleX(1.1);
+    font-size: 14rem;
+}
+
+}
+
+@media screen and (min-width:2000px ){
+
+  .txt {
+    //--webkit-transform: scaleX(1.1);
+    //transform: scaleX(1.1);
+    font-size: 16rem;
+}
+
+}
+
 </style>
