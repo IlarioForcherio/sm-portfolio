@@ -4,7 +4,7 @@
             <!-- silvia-montinaro -->
             <div class="row pt-3 align-items-center">
                 <div class="col-md-12 col-lg-2 text-end">
-                 <div> SILVIA MONTINARO</div>
+                    <div> SILVIA MONTINARO</div>
                 </div>
                 <!-- line -->
                 <div class="col-md-12 col-lg-10">
@@ -17,10 +17,11 @@
                 <!-- about -->
                 <div class="col-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-3  d-flex align-items-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio explicabo quia possimus rerum sit omnis, maxime porro dolor dolore, voluptates expedita architecto commodi quibusdam magnam. Corrupti, iusto. Deserunt, repellendus.</p>
+                    <p>Mi è sempre piaciuto giocare con le parole. Fino a quando ho scoperto di poterci fare molto di più. Ho imparato che ogni lettera accostata ha il suo peso, il suo valore, un suono ben definito e un posto giusto in cui rientrare. Saperle
+                        usare nel modo migliore, per semplificare o approfondire, è la sfida che mi pongo ogni giorno. Un buon contenuto è come un cassetto in perfetto ordine, dove trovare immediatamente quello che ci serve senza perderci in cianfrusaglie.</p>
                 </div>
-                <!-- big-txt -->
-                <div class="col-sm-12 col-md-12 col-lg-3">
+                <!-- work-project-contact -->
+                <div class="pt-3 pb-3 col-sm-12 col-md-12 col-lg-3">
                     <a href="/work">
                         <h2 class="txt">Work</h2>
                     </a>
@@ -33,17 +34,17 @@
                 </div>
             </div>
             <!-- copywriter -->
-            <div class="row align-items-center">
+            <div class="row align-items-center ">
                 <div class="col-md-12 col-lg-2 ">
-                <div class="">-- COPYWRITER --</div>  
+                    <div class="">-- COPYWRITER --</div>
                 </div>
-            <!-- line -->
-            <div class="col-md-12 col-lg-10">
-                <div class="line"></div>
+                <!-- line -->
+                <div class="col-md-12 col-lg-10">
+                    <div class="line"></div>
+                </div>
+    
             </div>
-
-            </div>
-
+    
         </div>
     </div>
 </template>
@@ -83,30 +84,24 @@ a {
 .txt {
     //--webkit-transform: scaleX(1.1);
     //transform: scaleX(1.1);
-    font-size: 8rem;
+    font-size: 12.3rem;
+    line-height: 9.5rem;
 }
-
 
 //-----------------------MEDIA-QUERY-------------------------------//
-
-@media screen and (min-width:1280px ){
-
-  .txt {
-    //--webkit-transform: scaleX(1.1);
-    //transform: scaleX(1.1);
-    font-size: 14rem;
+@media screen and (min-width:1280px) {
+    .txt {
+        //--webkit-transform: scaleX(1.1);
+        //transform: scaleX(1.1);
+        font-size: 14rem;
+    }
 }
 
+@media screen and (min-width:2000px) {
+    .txt {
+        //--webkit-transform: scaleX(1.1);
+        //transform: scaleX(1.1);
+        font-size: 16rem;
+    }
 }
-
-@media screen and (min-width:2000px ){
-
-  .txt {
-    //--webkit-transform: scaleX(1.1);
-    //transform: scaleX(1.1);
-    font-size: 16rem;
-}
-
-}
-
 </style>
