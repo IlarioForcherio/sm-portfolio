@@ -85,7 +85,7 @@ a {
     //--webkit-transform: scaleX(1.1);
     //transform: scaleX(1.1);
     font-size: 12.3rem;
-    line-height: 11rem;
+    line-height: 10rem;
 }
 
 //-----------------------MEDIA-QUERY-------------------------------//
