@@ -21,7 +21,7 @@
         <!-- landing-page -->
         <section>
           <div class="pt-5 row w-75 m-auto">
-            <div class="col-lg-8"> <p>Landing page. Ho realizzato questo progetto, a livello grafico e copy, per l'esame di Tecniche e Strumenti di marketing digitale del Master in Progettazione e Management del Multimedia per la Comunicazione.</p></div>
+            <div class="col-sm-12 col-lg-8"> <p>Landing page. Ho realizzato questo progetto, a livello grafico e copy, per l'esame di Tecniche e Strumenti di marketing digitale del Master in Progettazione e Management del Multimedia per la Comunicazione.</p></div>
             <div class="col-lg-4"></div>
           </div>
             <div class="row w-75 m-auto">
