@@ -97,20 +97,15 @@ a {
         line-height: 5rem;
     }
 }
-
-
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1280px) and (max-width: 1800px) {
     .txt {
-    
-        font-size: 14rem;
+       
+        font-size: 18rem;
+        line-height: 15rem;
     }
 }
 
-@media screen and (min-width:2000px) {
-    .txt {
-        
-        font-size: 16rem;
-    }
-}
+
+
 
 </style>
