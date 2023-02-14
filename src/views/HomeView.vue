@@ -89,19 +89,28 @@ a {
 }
 
 //-----------------------MEDIA-QUERY-------------------------------//
+
+@media screen and (min-width:375px) and (max-width: 437px) {
+    .txt {
+        
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+}
+
+
 @media screen and (min-width:1280px) {
     .txt {
-        //--webkit-transform: scaleX(1.1);
-        //transform: scaleX(1.1);
+    
         font-size: 14rem;
     }
 }
 
 @media screen and (min-width:2000px) {
     .txt {
-        //--webkit-transform: scaleX(1.1);
-        //transform: scaleX(1.1);
+        
         font-size: 16rem;
     }
 }
+
 </style>

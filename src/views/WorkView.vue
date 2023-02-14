@@ -1,11 +1,16 @@
 <template>
     <div>
-        <a href="/"> home </a>
+        <!-- nav -->
+        <div class="d-flex justify-content-between">
+            <a class="p-2" href="/projects">PROJECTS</a>
+             <a class="p-2" href="/"><font-awesome-icon icon="fa-solid fa-house" /></a>
+              <a class="p-2" href="/contacts">CONTACTS</a>
+        </div>
+       
         <div class="work container-fluid">
             <!-- articoli-blog -->
             <section>
                 <!-- head -->
-    
                 <div class="row pt-3 align-items-center">
                     <div class="col-md-12 col-lg-2 text-end">
                         <div>ARTICOLI BLOG</div>
@@ -100,7 +105,6 @@
             <!-- copy-head -->
             <section>
                 <!-- head -->
-    
                 <div class="row pt-3 align-items-center">
                     <div class="col-md-12 col-lg-2 text-end">
                         <div>COPY HEAD</div>
@@ -112,13 +116,13 @@
                 </div>
                 <!-- cards -->
                 <div class="row w-75 m-auto justify-content-center">
-                    <div class="box-shadow    col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow    col-sm-12 col-lg-4">
                         <img class="" src="../assets/img/2.ChiArtista.png" alt="">
                     </div>
-                    <div class="box-shadow  col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow  col-sm-12 col-lg-4">
                         <img class="" src="../assets/img/2.DALLE.png" alt="">
                     </div>
-                    <div class="box-shadow  col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow  col-sm-12 col-lg-4">
                         <div>
                             <font-awesome-icon icon="fa-brands fa-linkedin" /><span style="font-size:1.2rem"> 24 ottobre 2022</span>
                         </div>
@@ -126,7 +130,7 @@
                         <p class="">Un’opera straordinaria nasconde doti straordinarie. Non importa chi sia l’artista o da dove provenga.<br> La risposta di oggi, però, potrebbe destabilizzare anche i più convinti. Scorri nell’infografica e scopri perché.. 👉</p>
                         <div class="tag">#digitalmarketing #graphicdesigners #ai</div>
                     </div>
-                    <div class="box-shadow pt-2 col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow pt-2 col-sm-12 col-lg-4">
                         <div>
                             <font-awesome-icon icon="fa-brands fa-linkedin" /><span style="font-size:1.2rem"> 10 ottobre 2022 </span>
                         </div>
@@ -134,14 +138,37 @@
                         <p class="">Prova a rispondere alla nostra domanda, poi gira pagina e scopriamo insieme se la risposta era proprio quella che ti aspettavi.</p>
                         <div class="tag2">#digitalmarketing #copywriting</div>
                     </div>
-                    <div class="box-shadow pt-2 col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow pt-2 col-sm-12 col-lg-4">
                         <img class="" src="../assets/img/1.Lo_riconosci.png" alt="">
                     </div>
-                    <div class="box-shadow pt-2 col-sm-12 col-lg-4">
+                    <div class="zoom box-shadow pt-2 col-sm-12 col-lg-4">
                         <img class="" src="../assets/img/1.Questo è.png" alt="">
                     </div>
                 </div>
             </section>
+            <section>
+                <!-- head -->
+                <div class="row pt-3 align-items-center">
+                    <div class="col-md-12 col-lg-2 text-end">
+                        <div>COMUNICATI STAMPA</div>
+                    </div>
+                    <!-- line -->
+                    <div class="col-md-12 col-lg-10">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <!-- centro-congressi -->
+                <div class="row w-75 m-auto ">
+                    <div class="col">
+                        <p>Comunicato stampa 17/03/202 Mi sono occupata della stesura di comunicati stampa per il Centro Congressi Unione Industriale Torino. Quelli che segue è un esempio di comunicato inviato in occasione dell'inizio di un nuovo format di incontri on-line in seguito alle chiusure dovute al Covid-19.</p>
+                        <img src="../assets/img/comunicato-stampa.png" alt="">
+                    </div>
+                </div>
+            </section>
+        <!-- arrow-up -->
+        <div class="w-75 m-auto d-flex justify-content-end">
+           <a href="#"><font-awesome-icon icon="fa-solid fa-circle-arrow-up" /></a> 
+        </div>
     
         </div>
     </div>
@@ -154,6 +181,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a{
+    color: black;
+    text-decoration: none;
+}
 .bb {
     border: 1px solid black;
 }
@@ -193,6 +224,11 @@ font-weight: bold;
 .box-shadow{
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+.fa-circle-arrow-up{
+font-size: 3rem;
+padding-bottom: 100px;
+}
+
 
 
 

@@ -16,11 +16,13 @@ import router from './router'
   import { faGithub,faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
   //import fa solid
-   import { faCircleArrowUp,} from '@fortawesome/free-solid-svg-icons'
+   import { faCircleArrowUp,faHouse} from '@fortawesome/free-solid-svg-icons'
+
+   //<font-awesome-icon icon="fa-solid fa-house" />
   
 
   /* add icons to the library */
-  library.add(faGithub,faLinkedin,faCircleArrowUp,)
+  library.add(faGithub,faLinkedin,faCircleArrowUp,faHouse)
 
 Vue.config.productionTip = false
 
