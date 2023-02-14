@@ -4,7 +4,7 @@
         <div class="d-flex justify-content-between">
             <a class="p-2" href="/projects">PROJECTS</a>
              <a class="p-2" href="/"><font-awesome-icon icon="fa-solid fa-house" /></a>
-              <a class="p-2" href="/contacts">CONTACTS</a>
+              <a class="p-2" href="/contact">CONTACTS</a>
         </div>
        
         <div class="work container-fluid">

@@ -6,7 +6,7 @@
             <a class="p-2" href="/">
                 <font-awesome-icon icon="fa-solid fa-house" />
             </a>
-            <a class="p-2" href="/contacts">CONTACTS</a>
+            <a class="p-2" href="/contact">CONTACTS</a>
         </div>
         <!-- head -->
         <div class="row pt-3 align-items-center">
