@@ -89,7 +89,7 @@ a {
 }
 
 //-----------------------MEDIA-QUERY-------------------------------//
-@media screen and (min-width:1280px) and (max-width: 1800px) {
+@media screen and (min-width:1500px) and (max-width: 1800px) {
     .txt {
        
         font-size: 15rem;
