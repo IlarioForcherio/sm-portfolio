@@ -35,8 +35,8 @@
             </div>
             <!-- copywriter -->
             <div class="row align-items-center ">
-                <div class="col-md-12 col-lg-2 ">
-                    <div class="">-- COPYWRITER --</div>
+                <div class="col-md-12 col-lg-2 text-end">
+                    <div class="">----COPYWRITER----</div>
                 </div>
                 <!-- line -->
                 <div class="col-md-12 col-lg-10">
