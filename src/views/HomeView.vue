@@ -89,14 +89,6 @@ a {
 }
 
 //-----------------------MEDIA-QUERY-------------------------------//
-
-@media screen and (min-width:375px) and (max-width: 437px) {
-    .txt {
-        
-        font-size: 6rem;
-        line-height: 5rem;
-    }
-}
 @media screen and (min-width:1280px) and (max-width: 1800px) {
     .txt {
        
@@ -104,6 +96,14 @@ a {
         line-height: 15rem;
     }
 }
+@media screen and (min-width:375px) and (max-width: 437px) {
+    .txt {
+        
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+}
+
 
 
 
