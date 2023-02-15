@@ -92,7 +92,7 @@ a {
 @media screen and (min-width:1500px) and (max-width: 2000px) {
     .txt {
        
-        font-size: 15rem;
+        font-size: 16rem;
         line-height: 15rem;
     }
 }
