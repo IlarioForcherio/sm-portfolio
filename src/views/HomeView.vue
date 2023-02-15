@@ -89,14 +89,14 @@ a {
 }
 
 //-----------------------MEDIA-QUERY-------------------------------//
-@media screen and (min-width:2000px) and (max-width: 2500px) {
+@media screen and (min-width:1700px) and (max-width: 2000px) {
     .txt {
-       
-        font-size: 17rem;
+       padding-top: 2px;
+        font-size: 19rem;
         line-height: 15rem;
     }
 }
-@media screen and (min-width:1500px) and (max-width: 2000px) {
+@media screen and (min-width:1500px) and (max-width: 1700px) {
     .txt {
        
         font-size: 16rem;
